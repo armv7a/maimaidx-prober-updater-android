@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Username"
+        android:hint="输入账号"
         android:inputType="textPersonName" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:autofillHints="password"
         android:ems="10"
-        android:hint="Password"
+        android:hint="输入密码"
         android:inputType="textPassword" />
 
     <LinearLayout
@@ -94,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="false"
-            android:text="Basic"
+            android:text="绿"
             android:textSize="12sp" />
 
         <CheckBox
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="false"
-            android:text="Advanced"
+            android:text="黄"
             android:textSize="12sp" />
 
         <CheckBox
@@ -112,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Expert"
+            android:text="红"
             android:textSize="12sp" />
 
         <CheckBox
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Master"
+            android:text="紫"
             android:textSize="12sp" />
 
         <CheckBox
@@ -130,7 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Re:Mas"
+            android:text="白"
             android:textSize="12sp" />
     </LinearLayout>
 
